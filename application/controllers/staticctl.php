@@ -20,7 +20,7 @@ class Staticctl extends CI_Controller {
 	public function index()
 	{
 		$data['baseurl'] = base_url();
-		$this->load->view('home');
+		$this->load->view('home',$data);
 
 	}
 
